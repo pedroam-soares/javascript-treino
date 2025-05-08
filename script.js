@@ -50,3 +50,8 @@ primeiroNome= "Paulo",
 console.log(primeiroNome)
 let endereço= "Av. Leite Barbosa, 941 - Altos"
 console.log(endereço)
+const altura=87
+console.log(altura)
+console.log(primeiroNome)
+primeiroNome= "rafaela"
+console.log(primeiroNome)
