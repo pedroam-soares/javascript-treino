@@ -56,3 +56,18 @@ console.log(primeiroNome)
 primeiroNome= "rafaela"
 console.log(primeiroNome)
 console.log(minhaIdade)
+
+// usando typeof ( mostra o tipo da linguagem)
+console.log(typeof minhaIdade )
+console.log(typeof primeiroNome)
+
+// estrutura de dados
+
+// array - listas []
+
+let frutas= ['maçã', 'uva', 'banana', 'tangerina', 'melancia'];
+let primeiraFruta= frutas[0]
+let numeros= [2,3,45,67,87,35,13,0]
+let primeiroNumero= numeros[0]
+console.log(frutas[1], primeiroNome);
+console.log(frutas[1],primeiroNome,  primeiroNumero,primeiraFruta, numeros[4])
