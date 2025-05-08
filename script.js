@@ -55,3 +55,4 @@ console.log(altura)
 console.log(primeiroNome)
 primeiroNome= "rafaela"
 console.log(primeiroNome)
+console.log(minhaIdade)
