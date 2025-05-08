@@ -71,3 +71,4 @@ let numeros= [2,3,45,67,87,35,13,0]
 let primeiroNumero= numeros[0]
 console.log(frutas[1], primeiroNome);
 console.log(frutas[1],primeiroNome,  primeiroNumero,primeiraFruta, numeros[4])
+let qualquerCoisa=[24, 'olá', undefined, false]
