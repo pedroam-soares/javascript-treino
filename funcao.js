@@ -22,3 +22,9 @@ apresentacao("thais")
 console.error()
 console.info()
 
+function somar(numero1, numero2){
+    console.log(numero1 + numero2);
+ 
+}
+   somar(24, 37);
+   somar(362, 763);

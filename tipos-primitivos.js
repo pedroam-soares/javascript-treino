@@ -101,8 +101,84 @@ modelo: "Run 2025"
 }
 let tenisList = {
 marca: {
+    adidas:{
+        modelo:{
+            campus:{
+                cor:{
+                    branco:{
+                        tamanho:{
+                            37:{
+                                estoque:23
+                            },
+                            38:{
+                                estoque:19
+                            }
+                        }
+                    },
+                    azul:{
+                        tamanho:{
+                            37:{
+                                estoque:7
+                            },
+                            39:{
+                                estoque:9
+                            }
+                        }
+                    }
+                }
+            },
+            samba:{
+                cor:{
+                    preto:{
+                        tamanho:{
+                            39:{
+                                estoque:87
+                            },
+                            40:{
+                                estoque:6
+                            }
+                        }
+                    },
+                    azul:{
+                        tamanho:{
+                            36:{
+                                estoque:45
+                            },
+                            38:{
+                                estoque:85
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
     nike: {
         modelo: {
+            airForce:{
+                cor:{
+                    branco:{
+                        tamanho:{
+                            37:{
+                                estoque:54
+                            },
+                            38:{
+                                estoque:21
+                            }
+                        }
+                    },
+                    preto:{
+                        tamanho:{
+                            35:{
+                                estoque:7
+                            },
+                            38:{
+                                estoque:18
+                            }
+                        }
+                    }
+                }
+            },
             jordan:{
                 cor: {
                     preto:{ 
@@ -120,10 +196,10 @@ marca: {
                         tamanho: {
                             numero:{
                                 37:{
-                                    estoques1: 10
+                                    estoque: 10
                                 },
                                 38: {
-                                    estoques2:8
+                                    estoque:8
                                 }
                             }
                         }
