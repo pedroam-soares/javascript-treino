@@ -52,3 +52,18 @@ console.log(resultFuncaoSomar)
    }
    const resultadoFuncaoMultiplicacao = multiplicar(47,582)
    console.log(resultadoFuncaoMultiplicacao)
+console.log('eu sou o melhor')
+
+// função anonima (2º forma)
+
+const saudacao = function(nome, idade){
+   console.log(`olá tudo bem? Meu nome é ${nome} e tenho ${idade} anos`);
+   return 100;
+};
+saudacao('Pedro', 20);
+
+// arrow functions (3º forma)
+const mensagemTenis = (marca) =>{
+   console.log(`comprei um tenis da ${marca}`)
+};
+mensagemTenis('adidas')
