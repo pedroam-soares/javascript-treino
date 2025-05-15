@@ -211,3 +211,4 @@ marca: {
 }
 }
 console.log(tenisList.marca.nike.modelo.jordan.cor.preto.tamanho[39].estoque)
+console.log(tenislist.marca.adidas.modelo.campus.cor.azul.tamanho[37].estoque)
