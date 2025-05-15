@@ -72,3 +72,66 @@ let primeiroNumero= numeros[0]
 console.log(frutas[1], primeiroNome);
 console.log(frutas[1],primeiroNome,  primeiroNumero,primeiraFruta, numeros[4])
 let qualquerCoisa=[24, 'olá', undefined, false]
+// objetos
+
+let lapiseira ={
+ponta: 0.7,
+temBorracha: true,
+marca: "compactor",
+valor: 7.99,
+cor:"azul"
+}
+console.log(lapiseira.marca)
+
+let tenis = {
+marca:"nike",
+preco: 499.99,
+cor: "branco",
+tamanho: [
+ {
+ tamanho:36,
+estoque1:10,
+},
+{tamanho: 37,
+estoque:8
+}
+,38,39,40,41,42,43,44],
+estoque: 10,
+modelo: "Run 2025"
+}
+let tenisList = {
+marca: {
+    nike: {
+        modelo: {
+            jordan:{
+                cor: {
+                    preto:{ 
+                        tamanho:{
+                            38:{
+                                estoque:35
+                            },
+                            39:{
+                                estoque:24
+                            }
+                        }
+                    },
+
+                    branco: {
+                        tamanho: {
+                            numero:{
+                                37:{
+                                    estoques1: 10
+                                },
+                                38: {
+                                    estoques2:8
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+console.log(tenisList.marca.nike.modelo.jordan.cor.preto.tamanho[39].estoque)
