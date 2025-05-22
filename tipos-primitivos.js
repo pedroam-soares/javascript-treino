@@ -210,5 +210,18 @@ marca: {
     }
 }
 }
-console.log(tenisList.marca.nike.modelo.jordan.cor.preto.tamanho[39].estoque)
-console.log(tenislist.marca.adidas.modelo.campus.cor.azul.tamanho[37].estoque)
+
+const calculadora = {
+    marca: "casio",
+    cor: "preto",
+    modelo: 'fx-82',
+    preco: 199.99,
+
+    somar(numero1, numero2){
+        const resultado = numero1 + numero2;
+        return resultado;
+
+    }
+}
+const usandoMinhaCalculadora = calculadora.somar(62, 73);
+console.log(usandoMinhaCalculadora)
