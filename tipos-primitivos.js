@@ -218,10 +218,37 @@ const calculadora = {
     preco: 199.99,
 
     somar(numero1, numero2){
-        const resultado = numero1 + numero2;
-        return resultado;
+        const resultadoSomar = numero1 + numero2;
+        return resultadoSomar;
 
-    }
+    },
+
+subtrair(numero1, numero2){
+        const resultadoSubtracao = numero1 - numero2;
+        return resultadoSubtracao;
+
+    },
+    multiplicacao(numero1, numero2){
+        const resultadoMultiplicar = numero1 * numero2;
+        return resultadoMultiplicar;
+
+    },
+
+     divisao(numero1, numero2){
+        const resultadoDividir = numero1 / numero2;
+        return resultadoDividir;
+
+    },
+
 }
+const usandoMultiplicacao =calculadora.multiplicacao(536, 76);
+console.log(usandoMultiplicacao);
+
 const usandoMinhaCalculadora = calculadora.somar(62, 73);
-console.log(usandoMinhaCalculadora)
+console.log(usandoMinhaCalculadora);
+
+const usandoDivisao= calculadora.divisao(799, 6);
+console.log(usandoDivisao);
+
+const usandoSubtracao= calculadora.subtrair(2543, 87);
+console.log(usandoSubtracao)
