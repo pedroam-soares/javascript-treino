@@ -255,3 +255,19 @@ console.log(usandoSubtracao)
 console.log(usandoSubtracao - usandoMinhaCalculadora)
 console.log(usandoMultiplicacao / usandoMinhaCalculadora)
 console.log(usandoMinhaCalculadora + usandoMultiplicacao * usandoSubtracao - usandoMultiplicacao)
+
+const Pessoa ={
+    nome: "Pedro",
+    altura : 1.86,
+    profissao: 'consultor',
+    estaSolteiro: true,
+    peso: 70,
+    idade: 20,
+    irmaos: 4,
+
+    saudacao(){
+        console.log(`Olá meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    },
+
+};
+Pessoa.saudacao();
