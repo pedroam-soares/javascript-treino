@@ -252,3 +252,6 @@ console.log(usandoDivisao);
 
 const usandoSubtracao= calculadora.subtrair(2543, 87);
 console.log(usandoSubtracao)
+console.log(usandoSubtracao - usandoMinhaCalculadora)
+console.log(usandoMultiplicacao / usandoMinhaCalculadora)
+console.log(usandoMinhaCalculadora + usandoMultiplicacao * usandoSubtracao - usandoMultiplicacao)
